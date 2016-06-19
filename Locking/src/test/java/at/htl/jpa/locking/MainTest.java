@@ -221,6 +221,11 @@ public class MainTest {
     }
 
 
+    /**
+     * Utility method for printing the rows of a table
+     * @param tableName name of the table to print
+     * @return List with all rows
+     */
     private List<?> showTable(String tableName) {
 
         Class tableType = null;
